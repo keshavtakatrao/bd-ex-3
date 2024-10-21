@@ -4,4 +4,4 @@ let tasksObject = [
   { taskId: 3, text: 'Write documentation', priority: 3 },
 ];
 
-modules.export = tasksObject;
+module.exports = { tasksObject }
